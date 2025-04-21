@@ -5,37 +5,38 @@ import AnimateOnScroll from "./AnimateOnScroll";
 const testimonials = [
   {
     id: 1,
-    name: "Marie T.",
+    name: "Christina P.",
     content:
-      "Pizza Papi, c'est notre rituel du vendredi soir en famille ! Les enfants adorent la Tahitienne avec son ananas frais. Le personnel est toujours accueillant et souriant.",
+      "À chaque fois que nous allons vers la presqu'île, on n'oublie pas de s'arrêter pour de très bonnes pizzas, de très bonnes pâtisseries sans oublier leur ice cream délicieux et pas cher.",
     rating: 5,
-    date: "Octobre 2023",
+    date: "2018",
   },
   {
     id: 2,
-    name: "Thomas L.",
+    name: "Louana F.",
     content:
-      "Meilleure pizza de l'île, sans hésitation ! J'ai voyagé partout et je peux vous dire que la Moana avec son thon frais local n'a rien à envier aux pizzerias italiennes. Un vrai régal !",
+      "Je vous le recommande ! Leurs pizzas sont bien garnies, les pâtisseries pas chères et leurs glaces sont excellentes !",
     rating: 5,
-    date: "Août 2023",
+    date: "2017",
   },
   {
     id: 3,
-    name: "Hina P.",
+    name: "Aito",
     content:
-      "Je vais régulièrement à l'enseigne de Papeete après le travail. Le service est rapide, les prix raisonnables et les pizzas sont généreuses. Que demander de plus ?",
-    rating: 4,
-    date: "Septembre 2023",
+      "Ça fait 7 ans que je ne suis pas venu... tellement hâte de remanger ces pizzas-là 😍🔥",
+    rating: 5,
+    date: "Mars 2022",
   },
   {
     id: 4,
-    name: "Paul M.",
+    name: "Anaïs B.",
     content:
-      "Une pizzeria qui valorise les ingrédients locaux, ça fait plaisir ! L'ambiance est détendue et familiale. On se sent comme à la maison chez Pizza Papi.",
+      "Les glaces italiennes et les pâtisseries sont trop bonnes 😍",
     rating: 5,
-    date: "Juillet 2023",
+    date: "Août 2019",
   },
 ];
+
 
 const TestimonialsSection = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -77,12 +78,9 @@ const TestimonialsSection = () => {
                 ))}
               </div>
               <p className="ml-2 font-display font-bold text-xl text-tahiti-terracotta">
-                4.8/5
+                4.3/5
               </p>
             </div>
-            <p className="font-body text-gray-700 max-w-3xl mx-auto">
-              Plus de 1000 avis positifs de nos clients satisfaits
-            </p>
           </div>
         </AnimateOnScroll>
 

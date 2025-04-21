@@ -6,29 +6,30 @@ import AnimateOnScroll from "./AnimateOnScroll";
 const featuredPizzas = [
   {
     id: 1,
-    name: "Pizza Tahitienne",
-    description: "Sauce tomate, mozzarella, jambon, ananas frais de Moorea, olives",
-    price: 1650,
-    image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&q=80&w=600",
-    tags: ["Populaire"],
+    name: "Royale",
+    description: "Bacon, jambon, champignons, oignons, tomates, olives",
+    price: 1000,
+    image: "https://www.pate-a-pizza.com/wp-content/uploads/2016/11/pizza-royale-1024x576.jpg",
+    tags: ["Classique"],
   },
   {
     id: 2,
-    name: "Pizza Moana",
-    description: "Sauce tomate, mozzarella, thon, oignons, poivrons, olives noires",
-    price: 1750,
-    image: "https://images.unsplash.com/photo-1604917877934-07d8d248d396?auto=format&fit=crop&q=80&w=600",
-    tags: ["Poisson", "Nouveau"],
+    name: "Fruits de Mer",
+    description: "Fruits de mer sautés à l'ail, huile d'olive, tomates, poivrons, olives, œufs",
+    price: 1000,
+    image: "https://assets.afcdn.com/recipe/20160928/17857_w1024h1024c1cx2596cy1733.webp",
+    tags: ["Fruits de mer"],
   },
   {
     id: 3,
-    name: "Pizza Margarita",
-    description: "Sauce tomate, mozzarella, basilic frais, huile d'olive extra vierge",
-    price: 1400,
-    image: "https://images.unsplash.com/photo-1627626775846-122b778965ae?auto=format&fit=crop&q=80&w=600",
-    tags: ["Végétarienne", "Classique"],
+    name: "Paysanne",
+    description: "Bacon, jambon, champignons, oignons, mozzarella, crème",
+    price: 1200,
+    image: "https://img.cuisineaz.com/660x660/2018/06/19/i140519-pizza-paysanne.jpeg",
+    tags: ["Gourmande", "Crème"],
   },
 ];
+
 
 const FeaturedMenuSection = () => {
   // Fonction pour formater le prix en XPF

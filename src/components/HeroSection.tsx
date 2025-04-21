@@ -55,15 +55,15 @@ const HeroSection = () => {
 
           <AnimateOnScroll animation="fade-in" delay={300}>
             <div className="relative flex justify-center">
-              <div className="bg-white p-6 rounded-full shadow-xl transform rotate-3 max-w-sm mx-auto flex items-center justify-center">
+                <div className="bg-white p-6 rounded-lg shadow-xl transform rotate-3 max-w-md mx-auto flex items-center justify-center mt-8">
                 <img
-                  src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80"
+                  src="https://cloudfront-eu-central-1.images.arcpublishing.com/lexpress/L6LHSVTHFBABBMSLHANOJT43WY.jpg"
                   alt="Pizza Margarita traditionnelle"
-                  className="w-48 h-48 md:w-72 md:h-72 object-cover rounded-full"
+                  className="w-72 h-56 md:w-96 md:h-96 object-cover rounded-lg"
                   style={{ background: '#f8ecd9' }}
                 />
-              </div>
-              <div className="absolute -bottom-5 -right-5 bg-tahiti-sand p-4 rounded-lg shadow-md transform -rotate-3">
+                </div>
+              <div className="absolute -bottom-5 -right-5 bg-tahiti-sand p-4 rounded-s shadow-md transform -rotate-3">
                 <p className="font-display font-bold text-tahiti-terracotta text-lg">
                   Des ingrédients<br />frais et locaux
                 </p>

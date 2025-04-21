@@ -25,7 +25,7 @@ const Navbar = () => {
     { name: "Accueil", path: "/" },
     { name: "Menu", path: "/menu" },
     { name: "Nos adresses", path: "/adresses" },
-    { name: "Avis", path: "/avis" },
+    // { name: "Avis", path: "/avis" },
     { name: "Contact", path: "/contact" },
   ];
 
@@ -40,10 +40,10 @@ const Navbar = () => {
         <Link to="/" className="flex items-center space-x-3 group">
           {/* On insère le "logo" (l'image fournie en petit) */}
           <img
-            src="/lovable-uploads/4347f5bd-caf6-42db-98b9-6a3daa9da5f5.png"
+            src="/lovable-uploads/logo.png"
             alt="Logo Pizza Papi"
             className="w-12 h-12 rounded-full shadow-custom object-cover border-2 border-tahiti-terracotta group-hover:scale-105 transition-transform bg-white"
-            style={{ minWidth: 48, minHeight: 48 }}
+            style={{ minWidth: 60, minHeight: 60 }}
           />
           <span className="font-display text-3xl font-bold text-tahiti-terracotta">
             Pizza Papi

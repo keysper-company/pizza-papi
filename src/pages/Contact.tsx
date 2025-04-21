@@ -215,32 +215,14 @@ const Contact = () => {
                           </h3>
                           <p className="font-body text-gray-700">
                             Papara : +689 40 52 15 75<br />
-                            Taiarapu-Est : +689 40 52 11 75
+                            Taiarapu-Est : +689 40 52 11 75<br />
+                            Teva I Uta : +689 87 72 60 94
+
                           </p>
                         </div>
                       </div>
 
-                      <div className="flex items-start">
-                        <div className="bg-tahiti-sand/50 p-3 rounded-full mr-4">
-                          <svg 
-                            xmlns="http://www.w3.org/2000/svg" 
-                            className="h-6 w-6 text-tahiti-terracotta" 
-                            fill="none" 
-                            viewBox="0 0 24 24" 
-                            stroke="currentColor"
-                          >
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                          </svg>
-                        </div>
-                        <div>
-                          <h3 className="font-display font-bold text-tahiti-terracotta text-lg mb-1">
-                            Email
-                          </h3>
-                          <p className="font-body text-gray-700">
-                            contact@pizzapapi.pf
-                          </p>
-                        </div>
-                      </div>
+
 
                       <div className="flex items-start">
                         <div className="bg-tahiti-sand/50 p-3 rounded-full mr-4">
@@ -260,8 +242,9 @@ const Contact = () => {
                             Adresses
                           </h3>
                           <p className="font-body text-gray-700">
-                            Papara : 6FQV+M29, Papara, Polynésie française<br />
-                            Taiarapu-Est : 7MCM+WHH, Taiarapu-Est, Polynésie française
+                          Papara : 6FQV+M29, Polynésie française<br />
+                  Taiarapu-Est : 7MCM+WHH, Polynésie française<br />
+                  Teva I Uta : 8FQP+123, Polynésie française
                           </p>
                         </div>
                       </div>

@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -69,11 +68,11 @@ const Footer = () => {
                   Nos adresses
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to="/avis" className="font-body text-gray-700 hover:text-tahiti-terracotta transition-colors">
                   Avis clients
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link to="/contact" className="font-body text-gray-700 hover:text-tahiti-terracotta transition-colors">
                   Contact
@@ -94,16 +93,13 @@ const Footer = () => {
                 </svg>
                 <span className="font-body text-gray-700">
                   Papara : 6FQV+M29, Papara, Polynésie française<br />
-                  Taiarapu-Est : 7MCM+WHH, Taiarapu-Est, Polynésie française
+                  Taiarapu-Est : 7MCM+WHH, Taiarapu-Est, Polynésie française<br />
+                  Teva I Uta : 8FQP+123, Teva I Uta, Polynésie française
                 </span>
               </div>
               <div className="flex items-start">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-tahiti-terracotta mr-2 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                </svg>
-                <span className="font-body text-gray-700">
-                  contact@pizzapapi.pf
-                </span>
+
+
               </div>
               <div className="flex items-start">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-tahiti-terracotta mr-2 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -111,7 +107,8 @@ const Footer = () => {
                 </svg>
                 <span className="font-body text-gray-700">
                   Papara : +689 40 52 15 75<br />
-                  Taiarapu-Est : +689 40 52 11 75
+                  Taiarapu-Est : +689 40 52 11 75<br />
+                  Teva I Uta : +689 87 72 60 94
                 </span>
               </div>
             </div>
