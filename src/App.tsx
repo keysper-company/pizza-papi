@@ -30,7 +30,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter basename="/pizza-papi">
-        <ScrollToTop />
+      <ScrollToTop />
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/menu" element={<Menu />} />
