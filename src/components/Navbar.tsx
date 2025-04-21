@@ -38,7 +38,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 flex justify-between items-center">
         <Link to="/" className="flex items-center space-x-3">
           <img
-            src="/lovable-uploads/logo.png"
+            src="https://keysper-company.github.io/pizza-papi/lovable-uploads/logo.png"
             alt="Logo Pizza Papi"
             className="w-12 h-12 rounded-full shadow-custom object-cover border-2 border-tahiti-terracotta group-hover:scale-105 transition-transform bg-white"
             style={{ minWidth: 60, minHeight: 60 }}

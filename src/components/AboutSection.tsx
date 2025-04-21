@@ -20,8 +20,8 @@ const AboutSection = () => {
             <div className="relative">
               <div className="rounded-lg overflow-hidden shadow-xl">
                 <img
-                  src="/lovable-uploads/couverture.png"
-                  alt="Pizza Papi restaurant"
+            src="https://keysper-company.github.io/pizza-papi/lovable-uploads/couverture.png"
+            alt="Pizza Papi restaurant"
                   className="w-full h-auto"
                 />
               </div>
