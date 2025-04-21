@@ -29,7 +29,6 @@ const Navbar = () => {
     { name: "Contact", path: "/contact" },
   ];
 
-  // Remplace ici le logo par un affichage en ligne de l'image + lettering "Pizza Papi"
   return (
     <nav 
       className={`fixed w-full z-50 transition-all duration-300 py-3 md:py-4 ${
@@ -37,13 +36,12 @@ const Navbar = () => {
       }`}
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
-        <Link to="/" className="flex items-center space-x-3 group">
-          {/* On insère le "logo" (l'image fournie en petit) */}
+        <Link to="/" className="flex items-center space-x-3">
           <img
-            src="/lovable-uploads/4347f5bd-caf6-42db-98b9-6a3daa9da5f5.png"
-            alt="Logo Pizza Papi"
-            className="w-12 h-12 rounded-full shadow-custom object-cover border-2 border-tahiti-terracotta group-hover:scale-105 transition-transform bg-white"
-            style={{ minWidth: 48, minHeight: 48 }}
+            src="/lovable-uploads/04a54dbc-9906-4332-b5c6-9c4abc9ab4c7.png"
+            alt="Pizza Papi Logo"
+            className="w-10 h-10 rounded-full shadow-custom object-cover bg-white"
+            style={{ minWidth: 40, minHeight: 40 }}
           />
           <span className="font-display text-3xl font-bold text-tahiti-terracotta">
             Pizza Papi
