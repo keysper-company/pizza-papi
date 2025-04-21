@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import AnimateOnScroll from "./AnimateOnScroll";
 
@@ -58,9 +57,10 @@ const HeroSection = () => {
             <div className="relative flex justify-center">
               <div className="bg-white p-6 rounded-full shadow-xl transform rotate-3 max-w-sm mx-auto flex items-center justify-center">
                 <img
-                  src="/lovable-uploads/04a54dbc-9906-4332-b5c6-9c4abc9ab4c7.png"
-                  alt="Pizza Papi Logo - Pizza traditionnelle"
-                  className="w-48 h-48 md:w-72 md:h-72 object-contain rounded-full"
+                  src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80"
+                  alt="Pizza Margarita traditionnelle"
+                  className="w-48 h-48 md:w-72 md:h-72 object-cover rounded-full"
+                  style={{ background: '#f8ecd9' }}
                 />
               </div>
               <div className="absolute -bottom-5 -right-5 bg-tahiti-sand p-4 rounded-lg shadow-md transform -rotate-3">

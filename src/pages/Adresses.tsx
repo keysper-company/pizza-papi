@@ -3,38 +3,38 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import AnimateOnScroll from "@/components/AnimateOnScroll";
 
-// Données mockées pour les adresses
+// Données à jour pour les adresses et coordonnées
 const locations = [
   {
     id: 1,
-    name: "Pizza Papi Punaauia",
-    address: "Centre commercial Tamanu, PK 18 Côté montagne, Punaauia, Tahiti",
-    phone: "+689 40 42 42 42",
-    email: "punaauia@pizzapapi.pf",
+    name: "Pizza Papi Papara",
+    address: "6FQV+M29, Papara, Polynésie française",
+    phone: "+68940521575",
+    email: "papara@pizzapapi.pf",
     hours: [
-      { days: "Lundi - Jeudi", hours: "11h00 - 14h00, 18h00 - 21h30" },
-      { days: "Vendredi - Samedi", hours: "11h00 - 14h00, 18h00 - 22h30" },
-      { days: "Dimanche", hours: "18h00 - 21h30" },
+      { days: "Lundi - Samedi", hours: "11h00 - 14h00, 17h00 - 21h30" },
+      { days: "Dimanche", hours: "17h00 - 21h00" },
     ],
-    mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54432.111258718695!2d-149.64378754814453!3d-17.631207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x769bb6a42e84e453%3A0x3adbb3a47c895c86!2sPunaauia%2C%20French%20Polynesia!5e0!3m2!1sen!2sus!4v1714001323842!5m2!1sen!2sus",
+    // Maps: Papara
+    mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3777.609452272087!2d-149.488479!3d-17.762024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x769bd4b1f0b24a7b%3A0xe74e2efc7fd3b783!2s6FQV%2BM29%20Papara!5e0!3m2!1sfr!2spf!4v1714000000000!5m2!1sfr!2spf",
   },
   {
     id: 2,
-    name: "Pizza Papi Papeete",
-    address: "Centre Vaima, Front de mer, Papeete, Tahiti",
-    phone: "+689 40 43 43 43",
-    email: "papeete@pizzapapi.pf",
+    name: "Pizza Papi Taiarapu-Est",
+    address: "7MCM+WHH, Taiarapu-Est, Polynésie française",
+    phone: "+68940521175",
+    email: "taiarapu@pizzapapi.pf",
     hours: [
-      { days: "Lundi - Jeudi", hours: "11h00 - 14h30, 18h00 - 21h30" },
-      { days: "Vendredi - Samedi", hours: "11h00 - 14h30, 18h00 - 23h00" },
+      { days: "Lundi - Samedi", hours: "11h00 - 14h00, 17h00 - 21h00" },
       { days: "Dimanche", hours: "Fermé" },
     ],
-    mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14881.858437059271!2d-149.57560716334228!3d-17.53867179098728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x769a3bdbdb9f2e23%3A0x27312e101a28e469!2sCentre%20Vaima%2C%20Boulevard%20Pomare%2C%20Papeete%2C%20French%20Polynesia!5e0!3m2!1sen!2sus!4v1714001380853!5m2!1sen!2sus",
+    // Maps: Taiarapu-Est
+    mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.4941764275234!2d-149.286706!3d-17.764759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x769beae400053763%3A0xed13eb29ba4eb7d5!2s7MCM%2BWHH%20Taiarapu-Est!5e0!3m2!1sfr!2spf!4v1714000000000!5m2!1sfr!2spf",
   },
 ];
 
 const Adresses = () => {
-  // Fonction pour ouvrir un lien Google Maps
+  // Fonction pour ouvrir l'adresse sur Google Maps
   const openGoogleMaps = (address: string) => {
     const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`;
     window.open(googleMapsUrl, "_blank");
@@ -43,7 +43,6 @@ const Adresses = () => {
   return (
     <div className="min-h-screen bg-tahiti-background">
       <Navbar />
-      
       <main className="pt-24 pb-20">
         {/* Hero de la page */}
         <section className="bg-tahiti-sand/30 py-16">
@@ -61,7 +60,6 @@ const Adresses = () => {
             </AnimateOnScroll>
           </div>
         </section>
-
         {/* Section des adresses */}
         <section className="py-16">
           <div className="container mx-auto px-4">
@@ -205,7 +203,6 @@ const Adresses = () => {
           </div>
         </section>
       </main>
-
       <Footer />
     </div>
   );
