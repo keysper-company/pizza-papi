@@ -55,12 +55,12 @@ const HeroSection = () => {
           </AnimateOnScroll>
 
           <AnimateOnScroll animation="fade-in" delay={300}>
-            <div className="relative">
-              <div className="bg-white p-4 rounded-xl shadow-xl transform rotate-3 max-w-lg mx-auto">
+            <div className="relative flex justify-center">
+              <div className="bg-white p-6 rounded-full shadow-xl transform rotate-3 max-w-sm mx-auto flex items-center justify-center">
                 <img
-                  src="https://images.unsplash.com/photo-1618160512907-a25647763223?auto=format&fit=crop&q=80&w=800"
-                  alt="Pizza traditionnelle"
-                  className="w-full h-auto rounded-lg"
+                  src="/lovable-uploads/04a54dbc-9906-4332-b5c6-9c4abc9ab4c7.png"
+                  alt="Pizza Papi Logo - Pizza traditionnelle"
+                  className="w-48 h-48 md:w-72 md:h-72 object-contain rounded-full"
                 />
               </div>
               <div className="absolute -bottom-5 -right-5 bg-tahiti-sand p-4 rounded-lg shadow-md transform -rotate-3">

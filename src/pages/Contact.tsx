@@ -214,8 +214,8 @@ const Contact = () => {
                             Téléphone
                           </h3>
                           <p className="font-body text-gray-700">
-                            Punaauia: +689 40 42 42 42<br />
-                            Papeete: +689 40 43 43 43
+                            Papara : +689 40 52 15 75<br />
+                            Taiarapu-Est : +689 40 52 11 75
                           </p>
                         </div>
                       </div>
@@ -251,19 +251,17 @@ const Contact = () => {
                             viewBox="0 0 24 24" 
                             stroke="currentColor"
                           >
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                           </svg>
                         </div>
                         <div>
                           <h3 className="font-display font-bold text-tahiti-terracotta text-lg mb-1">
-                            Horaires
+                            Adresses
                           </h3>
                           <p className="font-body text-gray-700">
-                            Lundi - Samedi: 11h00 - 14h00, 18h00 - 22h00<br />
-                            Dimanche: 18h00 - 21h30
-                          </p>
-                          <p className="font-body text-sm text-gray-500 mt-1">
-                            (Horaires variables selon les établissements)
+                            Papara : 6FQV+M29, Papara, Polynésie française<br />
+                            Taiarapu-Est : 7MCM+WHH, Taiarapu-Est, Polynésie française
                           </p>
                         </div>
                       </div>

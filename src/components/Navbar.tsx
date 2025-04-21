@@ -36,7 +36,13 @@ const Navbar = () => {
       }`}
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
-        <Link to="/" className="flex items-center">
+        <Link to="/" className="flex items-center space-x-3">
+          <img
+            src="/lovable-uploads/04a54dbc-9906-4332-b5c6-9c4abc9ab4c7.png"
+            alt="Pizza Papi Logo"
+            className="w-10 h-10 rounded-full shadow-custom object-cover bg-white"
+            style={{ minWidth: 40, minHeight: 40 }}
+          />
           <span className="font-display text-3xl font-bold text-tahiti-terracotta">
             Pizza Papi
           </span>
